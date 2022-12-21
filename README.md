@@ -25,7 +25,7 @@ How do you run tests?
 Any tests of note?
 Describe any tests that you did not complete, skipped, etc
 
-References:
+Attributions:
 
 A special thank you to the website below. They showed a couple great ways
 to iterate through the Fibunacci sequence and explained what the code was 

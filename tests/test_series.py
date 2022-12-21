@@ -71,4 +71,13 @@ def test_lucas_7():
     assert actual == expected
 
 
+def test_sum_series_0():
+    actual = sum_series(0)
+    expected = 0
+    assert actual == expected
+
+def test_sum_series_2():
+    actual = sum_series(0, 2, 1)
+    expected = 2
+    assert actual == expected
 
