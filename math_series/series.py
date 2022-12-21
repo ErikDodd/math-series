@@ -20,13 +20,17 @@ def lucas(n):
     return a
 
 
-def sum_series(n):
+def sum_series(n, a=0, b=1 ):
     """
     This function adds the sum of a series of numbers. For parameters,
     it takes one required argument and two option ones.
     """
-    
-    pass
+    if n == 0:
+        return a
+    if n == 1:
+        return b
+    return sum_series(n - 1, a, b) + sum_series(n - 2, a, b)
+
 
 
 
