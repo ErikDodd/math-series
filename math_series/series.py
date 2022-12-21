@@ -23,7 +23,9 @@ def lucas(n):
 def sum_series(n, a=0, b=1 ):
     """
     This function adds the sum of a series of numbers. For parameters,
-    it takes one required argument and two option ones.
+    it takes one required argument and two option ones. If only using the required
+    parameter, the function will return the sum of the fibonacci sequence. If using
+    the optional parameters, the function will return the sum of the lucas sequence.
     """
     if n == 0:
         return a
